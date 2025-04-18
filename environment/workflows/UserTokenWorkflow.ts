@@ -16,9 +16,6 @@ export const workflowSettings: WorkflowSettings = {
    bindings: {
       "kinde.idToken": {}, // required to modify ID token claims
       "kinde.accessToken": {}, // required to modify access token claims
-      "kinde.fetch": {}, // Required for external API calls
-      "kinde.env": {}, // required to access your environment variables
-      "kinde.mfa": {}, // required to modify MFA claims
       url: {}, // required for url params
    },
 };
