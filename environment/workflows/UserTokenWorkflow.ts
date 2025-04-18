@@ -14,9 +14,7 @@ export const workflowSettings: WorkflowSettings = {
    },
    trigger: WorkflowTrigger.UserTokenGeneration,
    bindings: {
-      "kinde.idToken": {}, // required to modify ID token claims
-      "kinde.accessToken": {}, // required to modify access token claims
-      url: {}, // required for url params
+      "kinde.accessToken": {}
    },
 };
 
