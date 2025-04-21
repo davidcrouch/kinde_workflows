@@ -21,8 +21,10 @@ export const workflowSettings: WorkflowSettings = {
 export default async function handleUserTokens(event: onUserTokenGeneratedEvent) {
 
    const accessToken = accessTokenCustomClaims<{
-      companyName: string;
+      account_id: string;
+      application_id: string;
    }>();
 
-   accessToken.companyName = "Kinde";
+   accessToken.account_id = "123";
+   accessToken.application_id = "456";
 };
